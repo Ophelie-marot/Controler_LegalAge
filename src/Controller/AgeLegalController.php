@@ -26,12 +26,11 @@ class AgeLegalController
             return $response;
         }
         /**
-         * @Route("/article", name="page_article")
+         * @Route("/article/{id}", name="page_article")
          */
-        public function articleShow (Request $request)
+        public function articleShow ($id)
         {
-            $idArticle = $request->query->get('id');
-            $articles =[
+            $articles = [
                 1 => 'Article 1',
                 2 => "Article 2",
                 3 => "Article 3",
@@ -39,7 +38,7 @@ class AgeLegalController
                 5 => "Article 5",
                 6 => "Article 6",
             ];
-            $response = new Response ('<h1>'.$articles[$idArticle].'</h1>');
+            $response = new Response ('<h1>'.$articles[$id].'</h1>');
             return $response;
         }
 
