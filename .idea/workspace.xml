@@ -134,7 +134,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605531664794</updated>
-      <workItem from="1605531665859" duration="2630000" />
+      <workItem from="1605531665859" duration="7510000" />
     </task>
     <servers />
   </component>
@@ -142,6 +142,14 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="462" y="281" key="#Notifications" timestamp="1605601834841">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="462" y="281" key="#Notifications/0.0.1440.900@0.0.1440.900" timestamp="1605601834841" />
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605601811913">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1605601811913" />
     <state x="501" y="232" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1605532003403">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -150,5 +158,9 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="474" y="183" key="NewPhpClassDialog/0.0.1440.900@0.0.1440.900" timestamp="1605531775114" />
+    <state x="176" y="213" key="vcs.ApplyPatchDifferentiatedDialog" timestamp="1605544132749">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="176" y="213" key="vcs.ApplyPatchDifferentiatedDialog/0.0.1440.900@0.0.1440.900" timestamp="1605544132749" />
   </component>
 </project>
