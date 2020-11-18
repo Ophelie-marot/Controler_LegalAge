@@ -134,7 +134,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605531664794</updated>
-      <workItem from="1605531665859" duration="17177000" />
+      <workItem from="1605531665859" duration="20173000" />
     </task>
     <servers />
   </component>
@@ -158,10 +158,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="458" y="212" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1440.900@0.0.1440.900" timestamp="1605630027663" />
-    <state x="474" y="183" key="NewPhpClassDialog" timestamp="1605629958451">
+    <state x="474" y="183" key="NewPhpClassDialog" timestamp="1605708289980">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="474" y="183" key="NewPhpClassDialog/0.0.1440.900@0.0.1440.900" timestamp="1605629958451" />
+    <state x="474" y="183" key="NewPhpClassDialog/0.0.1440.900@0.0.1440.900" timestamp="1605708289980" />
     <state x="176" y="213" key="vcs.ApplyPatchDifferentiatedDialog" timestamp="1605544132749">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

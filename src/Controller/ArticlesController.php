@@ -28,9 +28,9 @@ class ArticlesController extends AbstractController
          $article = $articles[$id];
 
             //J'utilise la fontion render, enfant de abstractController pour lier mon fichier html.twig
-         return $this->render('article.html.twig', [
-             'article' => $article
-         ]);
+         //return $this->render('article.html.twig', [
+             //'article' => $article
+         //]);
 
         }
 
@@ -53,10 +53,7 @@ class ArticlesController extends AbstractController
             return $this->render('article.html.twig',[
 
                 //Je stock mes infos dans une variable que je pourraîs utiliser das mon fichier twig
-                'profile' => $profile
+                'profile'=>$profile
             ]);
-
-
         }
-
     }
