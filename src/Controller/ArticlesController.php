@@ -13,7 +13,7 @@ class ArticlesController extends AbstractController
      * @Route("/article/{id}", name="page_article")
      */
 
-     public function articleShow()
+     public function articleShow($id)
         {
             $articles = [
                 1 => 'Article 1',
@@ -24,8 +24,13 @@ class ArticlesController extends AbstractController
                 6 => "Article 6",
             ];
 
-         //Je vais chercher mon fichier html.twig grâce a la fonction render propre a symfo
-        return $this->render('article.html.twig');
+            //Je stocke dans une variable l'appel de l'article par son id dans l'url
+         $article = $articles[$id];
+         
+            //J'utilise la fontion render, enfant de abstractController pour lier mon fichier html.twig
+         return $this->render('article.html.twig', [
+             'article' => $article
+         ]);
 
         }
     }
