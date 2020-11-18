@@ -9,8 +9,27 @@
 </head>
 <body>
 <header>
-    //Je fais appel a ma variable 'article' de php
-    <h1>{{ article }}</h1>
+    //je contruie ma condition if quand mon active ramene true ou false et j'utilise ma variable 'profile' avec ma key
+    // Pour donner faire suivre les infos de mon symfo
+    {% if active == true %}
+
+
+        <h1>
+            {{ profile.firstame, profile.name }}
+            </h1>
+
+        <h2>
+            {{ profile.age }}
+            </h2>
+        <p>Le métier de cette personne est
+
+                {{ profile.job }} </p>
+        {% else %}
+
+        <h1>Passe ton tour</h1>
+
+    {% endif %}
+
 </header>
 </body>
 </html>
