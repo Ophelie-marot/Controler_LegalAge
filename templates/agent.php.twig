@@ -8,14 +8,13 @@
     <title>Document</title>
 </head>
 <body>
-    {% for agent in agents %}
-        {% if agent.published == true %}
 
-            <p>
-               <a href="{{ path('intervenant_show', {'id': agent.id}) }}">  {{ agent.lastName }},{{ agent.firstName }},{{ agent.age }}</a>
-            </p>
+    <main>
 
-        {% endif %}
-    {% endfor %}
+        <h1>{{ agent.firstName }} {{ agent.lastName }}</h1>
+        <p> Cet agent a {{ agent.age }} ans </p>
+
+    </main>
+
 </body>
 </html>
