@@ -1,0 +1,59 @@
+@font-face {
+    font-family: "Shoulders";
+}
+*{
+    margin: 0;
+    padding: 0;
+
+}
+header{
+    background-color: #B0413E;
+}
+header ul{
+    display: flex;
+    list-style-type: none;
+    font-size: 20px;
+    justify-content: space-between;
+
+}
+header ul li{
+    margin-top: 30px;
+    margin-right: 30px;
+    font-family: cursive;
+
+}
+#logo{
+    width: 150px;
+    margin-left:30px ;
+    margin-bottom: 15px;
+}
+
+.article{
+    display: flex;
+}
+
+h2{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    font-size: 30px;
+    font-family: "American Typewriter";
+}
+
+#background{
+    width: 600px;
+   margin-left: 350px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+footer{
+    background-color: #B0413E;
+    height: 100px;
+
+}
+#logo2{
+    width: 150px;
+    margin-left: 600px;
+    margin-top: 30px;
+
+}

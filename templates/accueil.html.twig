@@ -1,0 +1,14 @@
+{% extends "base.html.twig" %}
+{% block titre %}Accueil {% endblock %}
+     {% block section %}
+         <main>
+            {% for article in article3 %}
+
+                    <ahref="{{ path('page_accueil',{id:article.id}) }}"><h2>{{ article.title }}</h2></a>
+                    <div><img src="{{ article.image }}" alt="" class="image"></div>
+
+             {% endfor %}
+
+         <img style="margin-left: 400px" src="{{ asset('asset/img/lapiscine.jpg') }}" alt="lapiscine">
+         </main>
+     {% endblock %}
